@@ -292,7 +292,7 @@ class Modal extends Component {
     if (this.state.mountClasses !== classes) newState.mountClasses = classes
     if (!_.isEmpty(newState)) this.setState(newState)
 
-    this.animationRequestId = requestAnimationFrame(this.setPositionAndClassNames)
+    //this.animationRequestId = requestAnimationFrame(this.setPositionAndClassNames)
 
     this.setDimmerNodeStyle()
   }
